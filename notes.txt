@@ -1,0 +1,7 @@
+Slack = Required Time - Arrival Time
+
+Setup violation: Data arrives too late
+Hold violation: Data changes too early
+
+Critical path = longest delay path in circuit
+
