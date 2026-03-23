@@ -1,23 +1,28 @@
 # Static Timing Analysis (STA)
 
-## Overview
-This project explores the fundamental concepts of Static Timing Analysis in digital circuits.
+## 📌 Overview
+This project focuses on understanding the fundamental concepts of Static Timing Analysis (STA), which is critical in ensuring correct operation of digital circuits in ASIC design.
 
-## Concepts Covered
-- Setup Time
-- Hold Time
-- Slack
-- Critical Path
+## ⚙️ Design Description
+- Implemented a simple **counter circuit in Verilog**
+- Applied timing constraints using SDC format
 
-## Approach
-- Designed a simple counter circuit in Verilog
-- Applied timing constraints using SDC
-- Studied timing behavior and violations
+## ⏱️ Key Timing Concepts
+- **Setup Time**: Minimum time before clock edge data must be stable  
+- **Hold Time**: Minimum time after clock edge data must remain stable  
+- **Slack**: Difference between required time and actual arrival time  
+- **Critical Path**: Longest delay path determining maximum clock frequency  
 
-## Key Learnings
-- Understanding timing constraints
-- Identifying setup and hold violations
-- Importance of slack in timing closure
+## 📊 Analysis Approach
+- Defined clock and I/O delays using SDC constraints  
+- Studied timing behavior and identified potential violations  
+- Analyzed how timing impacts circuit reliability  
 
-## Note
-This project focuses on understanding STA concepts and their role in ASIC design.
+## 🧠 Key Learnings
+- Importance of timing constraints in digital design  
+- Identification of setup and hold violations  
+- Role of slack in determining timing closure  
+- Understanding critical paths in circuits  
+
+## ⚠️ Note
+This project emphasizes **conceptual understanding of STA**, which is essential for timing closure in ASIC design.
